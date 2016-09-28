@@ -37,7 +37,7 @@ for x in range(0, (len(quotesOnly))):
 			if wordParse[i] == 'the' or wordParse[i] == 'to' or wordParse[i] == 'an' or wordParse[i] == 'your' or wordParse[i] == 'is' or wordParse[i] == 'about' or wordParse[i] == 'not' or wordParse[i] == 'a'  or wordParse[i] == 'it'  or wordParse[i] == 'of'  or wordParse[i] == 'and' or wordParse[i] == 'but' or wordParse[i] == 'into' or wordParse[i] == 'in' or wordParse[i] == 'only' or wordParse[i] == 'at' or wordParse[i] == 'any' or wordParse[i] == 'you' or wordParse[i] == 'are' or wordParse[i] == 'does' or wordParse[i] == "don't" or wordParse[i] == "doesn't" or wordParse[i] == "can't" or wordParse[i] == 'are':
 				synPhrase = synPhrase + " " + wordParse[i]		
 			else: 
-				synPhrase = synPhrase + " " + random.choice(synonyms) #was randSyn from line 51
+				synPhrase = synPhrase + " " + random.choice(synonyms) #was randSyn from line 36
 
 print synPhrase
 
