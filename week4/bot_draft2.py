@@ -1,16 +1,23 @@
 # -*- coding: utf-8 -*-
 
+import tweepy
+
+import time
+
 from PyDictionary import PyDictionary
 
 from random import randint
 
 dictionary=PyDictionary()
 
-#import twitter
-#api = twitter.Api(consumer_key='',
-                      #consumer_secret='',
-                      #access_token_key='',
-                      #access_token_secret='')
+consumer_key = 'nnxxUoUHW9mntZNZA1qE5Ebt9'
+consumer_secret = 'kY8Nz2OEhHqr5pGcaZbSHaqirEvpjOiXdllyvGU5FFAiWIFasj',
+access_key = '779492291501318146-91pmk2x9fb9bYur4Zvzp1dVRnRloPOB',
+access_secret = 'Ni2JEOFe3hgmU32oxseJKLaAQYQPMZqv5IGAMI2qmfUNo'
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_key, access_secret)
+api = tweepy.API(auth)
 
 synFrost = ""
 
@@ -33,3 +40,6 @@ for i in range (0, (len(frost))):
 
 
 print synFrost
+
+#api.update_status("")
+#time.sleep(900)
