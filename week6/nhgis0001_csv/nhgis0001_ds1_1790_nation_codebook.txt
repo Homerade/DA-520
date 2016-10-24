@@ -1,0 +1,317 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0001_ds1_1790_nation'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1790
+Geographic level: Nation
+Dataset:          1790 Census: Population Data [US, States & Counties]
+   NHGIS code:    1790_cPop
+   NHGIS ID:      ds1
+ 
+Tables:
+ 
+1. Total Population
+   Universe:    Persons
+   Source code: NT1
+   NHGIS code:  AAA
+ 
+2. Urban Population (Incorporated Places 2,500 and Over)
+   Universe:    Urban Persons (Incorporated Places 2,500 and Over)
+   Source code: NT2
+   NHGIS code:  AAK
+ 
+3. Urban Population in Cities of 25,000 and Over
+   Universe:    Urban Persons in Cities of 25,000 and Over
+   Source code: NT3
+   NHGIS code:  AAN
+ 
+4. White Males and Estimated White Females by Sex by Age
+   Universe:    White Persons
+   Source code: NT4
+   NHGIS code:  AAO
+ 
+5. White Population by Sex
+   Universe:    White Persons
+   Source code: NT5
+   NHGIS code:  AAP
+ 
+6. Race/Slave Status
+   Universe:    Persons
+   Source code: NT6
+   NHGIS code:  AAQ
+ 
+7. Total Number of Families
+   Universe:    Families
+   Source code: NT9
+   NHGIS code:  AAR
+ 
+8. Number of Family Members
+   Universe:    Families
+   Source code: NT10
+   NHGIS code:  AAB
+ 
+9. White Population by Nationality
+   Universe:    White Persons
+   Source code: NT12
+   NHGIS code:  AAC
+ 
+10. Families by Slaveholding Status
+    Universe:    Families
+    Source code: NT13
+    NHGIS code:  AAD
+ 
+11. Families by Slaveholding Status by Race
+    Universe:    Families
+    Source code: NT14
+    NHGIS code:  AAE
+ 
+12. White Family Members by Slaveholding Status
+    Universe:    White Family Members
+    Source code: NT15
+    NHGIS code:  AAF
+ 
+13. Average Number of Members in White Families by Slaveholding Status
+    Universe:    White Families
+    Source code: NT16
+    NHGIS code:  AAG
+ 
+14. Percent of Families by Slaveholding Status by Race
+    Universe:    Families
+    Source code: NT17
+    NHGIS code:  AAH
+ 
+15. Total Number of Slaves
+    Universe:    Slaves
+    Source code: NT18
+    NHGIS code:  AAI
+ 
+16. Average Number of Slaves per Slaveholding Family
+    Universe:    Slaves
+    Source code: NT19
+    NHGIS code:  AAJ
+ 
+17. Slaveholding Families by Number of Slaves
+    Universe:    Slaveholding Families
+    Source code: NT20
+    NHGIS code:  AAL
+ 
+18. Race
+    Universe:    Persons
+    Source code: NT21
+    NHGIS code:  AAM
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+    GISJOIN:     GIS Join Match Code
+    YEAR:        Data File Year
+    NATION:      Nation Name
+    NATIONA:     Nation Code
+    AREANAME:    Area name
+ 
+Table 1:     Total Population
+Universe:    Persons
+Source code: NT1
+NHGIS code:  AAA
+    AAA001:      Total
+ 
+Table 2:     Urban Population (Incorporated Places 2,500 and Over)
+Universe:    Urban Persons (Incorporated Places 2,500 and Over)
+Source code: NT2
+NHGIS code:  AAK
+    AAK001:      Total
+ 
+Table 3:     Urban Population in Cities of 25,000 and Over
+Universe:    Urban Persons in Cities of 25,000 and Over
+Source code: NT3
+NHGIS code:  AAN
+    AAN001:      Total
+ 
+Table 4:     White Males and Estimated White Females by Sex by Age
+Universe:    White Persons
+Source code: NT4
+NHGIS code:  AAO
+    AAO001:      Male >> Under 16 years of age
+    AAO002:      Male >> 16 years of age and over
+    AAO003:      Female >> Under 16 years of age
+    AAO004:      Female >> 16 years of age and over
+ 
+Table 5:     White Population by Sex
+Universe:    White Persons
+Source code: NT5
+NHGIS code:  AAP
+    AAP001:      Male
+    AAP002:      Female
+ 
+Table 6:     Race/Slave Status
+Universe:    Persons
+Source code: NT6
+NHGIS code:  AAQ
+    AAQ001:      Non-White: Free
+    AAQ002:      Non-White: Slave
+    AAQ003:      White
+ 
+Table 7:     Total Number of Families
+Universe:    Families
+Source code: NT9
+NHGIS code:  AAR
+    AAR001:      Total
+ 
+Table 8:     Number of Family Members
+Universe:    Families
+Source code: NT10
+NHGIS code:  AAB
+    AAB001:      1 member only
+    AAB002:      2 members
+    AAB003:      3 members
+    AAB004:      4 members
+    AAB005:      5 members
+    AAB006:      6 members
+    AAB007:      7 members
+    AAB008:      8 members
+    AAB009:      9 members
+    AAB010:      10 members
+    AAB011:      11 or more members
+ 
+Table 9:     White Population by Nationality
+Universe:    White Persons
+Source code: NT12
+NHGIS code:  AAC
+    AAC001:      English and Welsh
+    AAC002:      Scottish
+    AAC003:      Irish
+    AAC004:      Dutch
+    AAC005:      French
+    AAC006:      German
+    AAC007:      Hebrew
+    AAC008:      All other nationalities
+ 
+Table 10:    Families by Slaveholding Status
+Universe:    Families
+Source code: NT13
+NHGIS code:  AAD
+    AAD001:      Slaveholding family
+    AAD002:      Non-slaveholding family
+ 
+Table 11:    Families by Slaveholding Status by Race
+Universe:    Families
+Source code: NT14
+NHGIS code:  AAE
+    AAE001:      Slaveholding family >> White
+    AAE002:      Slaveholding family >> Free Colored
+    AAE003:      Non-slaveholding family >> White
+    AAE004:      Non-slaveholding family >> Free Colored
+ 
+Table 12:    White Family Members by Slaveholding Status
+Universe:    White Family Members
+Source code: NT15
+NHGIS code:  AAF
+    AAF001:      Slaveholding family
+    AAF002:      Non-slaveholding family
+ 
+Table 13:    Average Number of Members in White Families by Slaveholding Status
+Universe:    White Families
+Source code: NT16
+NHGIS code:  AAG
+    AAG001:      Number of family members >> Slaveholding family
+    AAG002:      Number of family members >> Non-slaveholding family
+ 
+Table 14:    Percent of Families by Slaveholding Status by Race
+Universe:    Families
+Source code: NT17
+NHGIS code:  AAH
+    AAH001:      Slaveholding family >> White
+    AAH002:      Slaveholding family >> Free Colored
+    AAH003:      Non-slaveholding family >> White
+    AAH004:      Non-slaveholding family >> Free Colored
+ 
+Table 15:    Total Number of Slaves
+Universe:    Slaves
+Source code: NT18
+NHGIS code:  AAI
+    AAI001:      Total
+ 
+Table 16:    Average Number of Slaves per Slaveholding Family
+Universe:    Slaves
+Source code: NT19
+NHGIS code:  AAJ
+    AAJ001:      Total
+ 
+Table 17:    Slaveholding Families by Number of Slaves
+Universe:    Slaveholding Families
+Source code: NT20
+NHGIS code:  AAL
+    AAL001:      Families holding 1 slave
+    AAL002:      Families holding 2 to 5 slaves
+    AAL003:      Families holding 5 to 9 slaves
+    AAL004:      Families holding 10 to 19 slaves
+    AAL005:      Families holding 20 to 49 slaves
+    AAL006:      Families holding 50 to 99 slaves
+    AAL007:      Families holding 100 to 199 slaves
+    AAL008:      Families holding 200 to 299 slaves
+    AAL009:      Families holding 300 slaves or over
+    AAL010:      Families holding an unknown number of slaves
+ 
+Table 18:    Race
+Universe:    Persons
+Source code: NT21
+NHGIS code:  AAM
+    AAM001:      White
+    AAM002:      Black/Nonwhite
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Minnesota Population Center. National Historical Geographic Information
+    System: Version 2.0. Minneapolis, MN: University of Minnesota 2011.
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* If possible, citations should also include the URL for the NHGIS site:
+
+    https://www.nhgis.org/
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu

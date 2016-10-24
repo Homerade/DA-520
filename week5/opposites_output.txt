@@ -1,0 +1,77 @@
+Last login: Wed Sep 28 13:07:20 on ttys000
+stephanies-MacBook-Pro-2:~ steph$ cd /Users/steph/Goucher/DA-520/week4 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ python bot_draft3.py
+your has no Synonyms in the API
+an has no Synonyms in the API
+you has no Synonyms in the API
+doesn't has no Synonyms in the API
+you're has no Synonyms in the API
+Traceback (most recent call last):
+  File "bot_draft3.py", line 59, in <module>
+    synPhrase = synPhrase + " " + random.choice(synonyms)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py", line 275, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+TypeError: object of type 'NoneType' has no len()
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ https://github.com/Homerade/DA-520/blob/master/week4/bot_draft3.py
+-bash: https://github.com/Homerade/DA-520/blob/master/week4/bot_draft3.py: No such file or directory
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$  python bot_draft3.py
+your has no Synonyms in the API
+an has no Synonyms in the API
+you has no Synonyms in the API
+doesn't has no Synonyms in the API
+you're has no Synonyms in the API
+Traceback (most recent call last):
+  File "bot_draft3.py", line 40, in <module>
+    synPhrase = synPhrase + " " + random.choice(synonyms) #was randSyn from line 36
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py", line 275, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+TypeError: object of type 'NoneType' has no len()
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$ 
+stephanies-MacBook-Pro-2:week4 steph$  python bot_draft3.py
+['genius', 'is', 'one', 'percent', 'inspiration', 'and', 'ninety-nine', 'percent', 'perspiration']
+stephanies-MacBook-Pro-2:week4 steph$ clear
+
+stephanies-MacBook-Pro-2:week4 steph$ cd ../
+stephanies-MacBook-Pro-2:DA-520 steph$ cd week5
+stephanies-MacBook-Pro-2:week5 steph$ dict_opposites.py
+-bash: dict_opposites.py: command not found
+stephanies-MacBook-Pro-2:week5 steph$ python dict_opposites.py
+bad
+stephanies-MacBook-Pro-2:week5 steph$ python dict_opposites.py
+bad
+down
+science
+left
+white
+dirty
+easy
+stephanies-MacBook-Pro-2:week5 steph$ 
+
+
+
+
+
+
+
+
+
