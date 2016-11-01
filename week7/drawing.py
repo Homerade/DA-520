@@ -12,6 +12,7 @@ draw = ImageDraw.Draw( im, 'RGBA' )
 # DRAW HERE!
 # Draw a circle. First parameter is x/y coordinates, second parameter is color (see video lesson).
 draw.ellipse( (0,0,100,100), fill=(0,100,200,50) )
+draw.line( (0,200,300,200), fill=0, width=3 )
 
 
 # Preview the image
