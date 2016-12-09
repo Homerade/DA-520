@@ -39,7 +39,7 @@ for x in range(0, (len(quotesOnly))):
 	# 	else: 
 	# 		synPhrase = synPhrase + " " + random.choice(synonyms) #was randSyn from line 36
 
-print wordParse
+print cleanser
 
 # for y in range(0,100000):
 # 	api.update_status(synPhrase)

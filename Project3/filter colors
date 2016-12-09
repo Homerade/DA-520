@@ -2,7 +2,7 @@
 
 R = R/3
 G = G-80
-B = G
+B = R
 
 #HORRIBLE alien green (elimiate!)
 R = R/3
