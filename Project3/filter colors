@@ -1,0 +1,22 @@
+#winter?
+
+R = R/3
+G = G-80
+B = G
+
+#HORRIBLE alien green (elimiate!)
+R = R/3
+G = G-80
+B = G
+
+#grey?
+
+#orange
+R = B
+G = G-80
+B = B/3
+
+#red
+R = R-80
+G = G/3
+B = G

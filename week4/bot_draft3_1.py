@@ -32,13 +32,13 @@ lineParse = quotesTxt.read().split("\n")
 
 quotesOnly = lineParse[::3]
 
-# for i in range(0, (len(lineParse))):
+for i in range(0, (len(lineParse))):
 
-#  	indexParse = lineParse[i].split(",")
+ 	indexParse = lineParse[i].split(",")
 
-#  	synPhrase = synPhrase + indexParse
+ 	synPhrase = synPhrase + indexParse
 
-print quotesOnly
+print synPhrase
 
 
 

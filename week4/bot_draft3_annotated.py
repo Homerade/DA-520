@@ -44,23 +44,23 @@ for x in range(0, (len(quotesOnly))):
 	#cycle = cycle + str(wordParse)  .....my attempt at cycling through the loop (made a series of lists: one for each quote parsed by word)
 
 	#finding synonyms
-	for i in range(0, (len(wordParse))):
+	# for i in range(0, (len(wordParse))):
 
-			synonyms = dictionary.synonym(wordParse[i])
+	# 		synonyms = dictionary.synonym(wordParse[i])
 
-			#randSyn = random.choice(synonyms)
+	# 		#randSyn = random.choice(synonyms)
 
-			if wordParse[i] == 'the' or wordParse[i] == 'to' or wordParse[i] == 'an' or wordParse[i] == 'your' or wordParse[i] == 'is' or wordParse[i] == 'about' or wordParse[i] == 'not' or wordParse[i] == 'a'  or wordParse[i] == 'it'  or wordParse[i] == 'of'  or wordParse[i] == 'and' or wordParse[i] == 'but' or wordParse[i] == 'into' or wordParse[i] == 'in' or wordParse[i] == 'only' or wordParse[i] == 'at' or wordParse[i] == 'any' or wordParse[i] == 'you' or wordParse[i] == 'are' or wordParse[i] == 'does' or wordParse[i] == "don't" or wordParse[i] == "doesn't" or wordParse[i] == "can't" or wordParse[i] == 'are':
+	# 		if wordParse[i] == 'the' or wordParse[i] == 'to' or wordParse[i] == 'an' or wordParse[i] == 'your' or wordParse[i] == 'is' or wordParse[i] == 'about' or wordParse[i] == 'not' or wordParse[i] == 'a'  or wordParse[i] == 'it'  or wordParse[i] == 'of'  or wordParse[i] == 'and' or wordParse[i] == 'but' or wordParse[i] == 'into' or wordParse[i] == 'in' or wordParse[i] == 'only' or wordParse[i] == 'at' or wordParse[i] == 'any' or wordParse[i] == 'you' or wordParse[i] == 'are' or wordParse[i] == 'does' or wordParse[i] == "don't" or wordParse[i] == "doesn't" or wordParse[i] == "can't" or wordParse[i] == 'are':
 
-				synPhrase = synPhrase + " " + wordParse[i]		
+	# 			synPhrase = synPhrase + " " + wordParse[i]		
 
-			else: 
+	# 		else: 
 
-				synPhrase = synPhrase + " " + random.choice(synonyms) #was randSyn from line 51
+	# 			synPhrase = synPhrase + " " + random.choice(synonyms) #was randSyn from line 51
 
-print synPhrase
+print quotesOnly
 
-#print synPhrase + '\n' + '\n' + cleanser  -----more than 140 characters
+# print synPhrase + '\n' + '\n' + cleanser  #-----more than 140 characters
 
 # for y in range(0,100000):
 # 	api.update_status(synPhrase)
