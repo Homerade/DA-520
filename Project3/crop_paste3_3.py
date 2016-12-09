@@ -30,10 +30,9 @@ rInt = random.randint(5,20)
 # 	# 		['R=R-80', 'G=G/3', 'B=G'],	#red
 # 	# 	]
 
-# 	# ColorShade = random.choice(ColorsOptions)	
+# 		# ColorShade = random.choice(ColorsOptions)	
 #
 
-#         px[x,y] = ( R, B, G )
 #         #px[x,y] = ( ColorShade )
 
 
