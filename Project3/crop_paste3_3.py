@@ -35,7 +35,7 @@ for x in range(0,im.width):
 	G = G-80
 	B = R
 
-	px[x,y] = (ColorShade)
+	px[x,y] = (R/3, G-80, R)
 
 
 for y in range(0, im.height, im.height/9):  #im.height/rInt: 'rInt = random.randint(7,20)' random line thicknesses
