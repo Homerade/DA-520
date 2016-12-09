@@ -20,18 +20,11 @@ for x in range(0,im.width):
         G = px[ x, y ][1]
         B = px[ x, y ][2]
 
-        ColorsOptions = (
-			(R/3, G-80, R),	#green
-			(R-80, R, B/3),	#yellow
-			(B, G-80, B/3),	#orange
-			(R/3, G-80, G),	#winter
-			(R/3, R, B-80),	#deep blue
-			(R-80, G/3, G),	#red
-			)
+        R = R/3
+        G = G-80
+        B = B
 
-        ColorShade = random.choice(ColorsOptions)
-
-        px[x,y] = ColorShade
+        px[x,y] = (R, G, B)
 
 
 for y in range(0, im.height, im.height/9):  #im.height/rInt: 'rInt = random.randint(7,20)' random line thicknesses

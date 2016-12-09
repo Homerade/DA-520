@@ -4,7 +4,7 @@ from PIL import ImageFilter
 from PIL import ImageEnhance
 from math import floor
 
-im = Image.open("im_scotch.jpg")
+im = Image.open("im_pancake.jpg")
 px = im.load()
 
 y1 = im.height/9
@@ -16,25 +16,20 @@ rInt = random.randint(5,20)
 
 for x in range(0,im.width):
     for y in range(0,im.height):
-    	R = px[ x, y ][0]
+        
+        R = px[ x, y ][0]
         G = px[ x, y ][1]
         B = px[ x, y ][2]
 
-        ColorsOptions = (
-			(R/3, G-80, R),	#green
-			(R-80, R, B/3),	#yellow
-			(B, G-80, B/3),	#orange
-			(R/3, G-80, G),	#winter
-			(R/3, R, B-80),	#deep blue
-			(R-80, G/3, G),	#red
-			)
+        R = R/3
+        G = G-80
+        B = G
 
-        ColorShade = random.choice(ColorsOptions)
-
-        px[x,y] = ColorShade
+        px[x,y] = ( R, B, G )
 
 
-for y in range(0, im.height, im.height/9):  #im.height/rInt: 'rInt = random.randint(7,20)' random line thicknesses
+
+for y in range(0, im.height, im.height/rInt):  #im.height/rInt: 'rInt = random.randint(7,20)' random line thicknesses
 
 	rIntX = random.randint(-(im.height-(im.height/9)),im.width)
 	rIntY = random.randint(0,im.height)
