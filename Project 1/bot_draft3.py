@@ -19,7 +19,6 @@ api = tweepy.API(auth)
 
 
 #parsing
-cycle = ""
 synPhrase = ""
 quotesTxt = open('synPhrase_quotes.txt', 'r')
 lineParse = quotesTxt.read().split("\n")
