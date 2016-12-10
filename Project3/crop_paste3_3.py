@@ -4,7 +4,7 @@ from PIL import ImageFilter
 from PIL import ImageEnhance
 from math import floor
 
-im = Image.open("im_scotch.jpg")
+im = Image.open("im_pancake.jpg")
 px = im.load()
 
 y1 = im.height/9
@@ -21,12 +21,13 @@ for x in range(0,im.width):
         B = px[ x, y ][2]
 
         ColorsOptions = (
-			(R/3, G-80, R),	#green
-			(R-80, R, B/3),	#yellow
-			(B, G-80, B/3),	#orange
-			(R/3, G-80, G),	#winter
-			(R/3, R, B-80),	#deep blue
-			(R-80, G/3, G),	#red
+			(R/3, G-80, R)
+			# ,	#green
+			# (R-80, R, B/3),	#yellow
+			# (B, G-80, B/3),	#orange
+			# (R/3, G-80, G),	#winter
+			# (R/3, R, B-80),	#deep blue
+			# (R-80, G/3, G),	#red
 			)
 
         ColorShade = random.choice(ColorsOptions)

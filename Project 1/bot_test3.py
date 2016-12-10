@@ -26,22 +26,29 @@ quotesOnly = lineParse[::3]
 # cleanser = quotesOnly[0].lower().replace('.','').replace(',','').replace(';','')
 # wordParse = cleanser.split(" ")
 
-#cycling through each quote and parsing each by word
 for n in range(0, (len(quotesOnly))):
 	cleanser = quotesOnly[n].lower().replace('.','').replace(',','').replace(';','')
 	wordParse = cleanser.split(" ")
 
-	for i in range(0, (len(wordParse))):
-		# synPhrase = synPhrase + " " + wordParse[i].upper()
-		synonyms = dictionary.synonym(wordParse[i])	
-		if synonyms == False:
-			synPhrase = synPhrase + " " + wordParse[i]
-		else:
-			synPhrase = synPhrase + " " + random.choice(synonyms)
+for i in range(0, (len(wordParse))):
+	synonyms = dictionary.synonym(wordParse[i])
+	try:
+		synPhrase = synPhrase + " " + random.choice(synonyms)
+	except "{0} has no Synonyms in the API":
+		return synPhrase = synPhrase + " " + wordParse[i]
+		
+	# try: 
 	# 	if wordParse[i] == 'the' or wordParse[i] == 'to' or wordParse[i] == 'an' or wordParse[i] == 'your' or wordParse[i] == 'is' or wordParse[i] == 'about' or wordParse[i] == 'not' or wordParse[i] == 'a'  or wordParse[i] == 'it'  or wordParse[i] == 'of'  or wordParse[i] == 'and' or wordParse[i] == 'but' or wordParse[i] == 'into' or wordParse[i] == 'in' or wordParse[i] == 'only' or wordParse[i] == 'at' or wordParse[i] == 'any' or wordParse[i] == 'you' or wordParse[i] == 'are' or wordParse[i] == 'does' or wordParse[i] == "don't" or wordParse[i] == "doesn't" or wordParse[i] == "can't" or wordParse[i] == 'are':
 	# 		synPhrase = synPhrase + " " + wordParse[i]
 	# 	else:
 	# 		synPhrase = synPhrase + " " + random.choice(synonyms)
+	# except "{0} has no Synonyms in the API":
+	# 	synPhrase = synPhrase + " " + random.choice(synonyms)		
+			
+
+
+	# except "{0} has no Synonyms in the API":
+	# 	synPhrase = synPhrase + " " + random.choice(synonyms)
 
 
 print synPhrase
